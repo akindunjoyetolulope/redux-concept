@@ -1,0 +1,26 @@
+body{      background-color: #E0E0E2;}h1{    color: #721817;}h2{        color: #721817;}.center-text{        text-align: center;}
+#logo{        margin-right:auto;        margin-left: auto;         display: block;}
+h2>span{        color: #fa9f42;        font-size: 0.75em;}
+#copyright{        padding-top: 12px;       font-size: 0.75em;}  
+
+ul{
+    list-style-type: none;
+  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+li{
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid red;
+    padding: 0px 16px;
+}
+
+li:first-of-type{
+    border-top: none;
+}
